@@ -1,0 +1,26 @@
+//Menu Variables//
+$Menu-Height:100px;
+$Menu-Background-Color: #5533ff;
+//Li Variables//
+$Li-Width:100px;
+$Li-Font-Size: 20px;
+$Li-Margin-Left:30px;
+$Li-Margin-Top:($Menu-Height - $Li-Font-Size)/2;
+
+//li:first-child//
+$Li-first-Margin-Left:400px;
+//Ul Variables //
+
+
+//product Variable//
+$Product-Width:400px;
+$Product-translateX: $Li-first-Margin-Left - $Product-Width/2 + $Li-Width/2;
+//Developer variables//
+$Developer-Width:400px;
+$Developer-Current-Margin: $Li-first-Margin-Left + $Li-Width + $Li-Margin-Left;
+$Developer-translateX:$Developer-Current-Margin - $Developer-Width/2 + $Li-Width/2;
+
+//company Variable//
+$Company-Width:200px;
+$Company-Current-Margin: $Li-first-Margin-Left + $Li-Width*2 + $Li-Margin-Left*2;
+$Company-translateX:$Company-Current-Margin - $Company-Width/2 + $Li-Width/2;

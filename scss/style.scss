@@ -1,3 +1,77 @@
+@import "variables.scss";
 body {
-    background-color: red;
+    margin: 0;
+    display: flex;
+    background-color: $Menu-Background-Color;
+}
+.menu {
+    width: 100%;
+    height:$Menu-Height;
+    margin: 0;
+    background-color: $Menu-Background-Color;
+    ul{
+        margin: 0;
+        width: 100%;
+        height:100%;
+        padding: 0;
+        li {
+            width: $Li-Width;
+            height: $Li-Font-Size;
+            margin-left: $Li-Margin-Left;
+            margin-top: $Li-Margin-Top;
+            font-size: $Li-Font-Size;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        li:first-child{
+            margin-left: $Li-first-Margin-Left;
+        }
+        
+    }
+    .dropDownMenu{
+        width: 600px;
+        height:auto;
+        display: none;
+        position: relative;
+        
+    }
+    .product{
+        width:$Product-Width;
+        height:300px;
+        background-color: white;
+        transform: translateX($Product-translateX);
+        border-radius: 10px;
+       
+    }
+    .developer{
+        width:$Developer-Width;
+        height:100px;
+        background-color: white;
+        transform: translateX($Developer-translateX);
+        border-radius: 10px;
+ 
+    }
+    .company{
+        width:200px;
+        height:100px;
+        background-color: white;
+        transform: translateX($Company-translateX);
+        border-radius: 10px;
+        
+    }
+    .arrow{
+        display: none;
+        width:10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background-color: white;
+        // margin-left: auto;
+        // margin-right: auto;
+        left: 48%;
+        top: -3px;
+        display: block;
+        position: absolute;
+    }
 }
