@@ -29,7 +29,8 @@ body {
     width: 600px;
     height: auto;
     display: none;
-    position: relative; }
+    position: relative;
+    top: -30px; }
   .menu .product {
     width: 400px;
     height: 300px;

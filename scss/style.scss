@@ -35,15 +35,16 @@ body {
         height:auto;
         display: none;
         position: relative;
+        top: -30px;
         
     }
     .product{
+    
         width:$Product-Width;
         height:300px;
         background-color: white;
         transform: translateX($Product-translateX);
         border-radius: 10px;
-       
     }
     .developer{
         width:$Developer-Width;
