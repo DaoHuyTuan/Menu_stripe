@@ -1,61 +1,68 @@
-body {
-  margin: 0;
-  display: flex;
-  background-color: #5533ff; }
-
+/*___________________________________________*/
 .menu {
   width: 100%;
   height: 100px;
   margin: 0;
   background-color: #5533ff; }
-  .menu ul {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0; }
-    .menu ul li {
-      width: 100px;
-      height: 20px;
-      margin-left: 30px;
-      margin-top: 40px;
-      font-size: 20px;
-      display: inline-block;
-      color: white;
-      text-align: center;
-      font-family: sans-serif; }
-    .menu ul li:first-child {
-      margin-left: 400px; }
-  .menu .dropDownMenu {
-    width: 600px;
-    height: auto;
-    display: none;
-    position: relative;
-    top: -30px; }
-  .menu .product {
-    width: 400px;
-    height: 300px;
-    background-color: white;
-    transform: translateX(250px);
-    border-radius: 10px; }
-  .menu .developer {
-    width: 400px;
-    height: 100px;
-    background-color: white;
-    transform: translateX(380px);
-    border-radius: 10px; }
-  .menu .company {
-    width: 200px;
-    height: 100px;
-    background-color: white;
-    transform: translateX(610px);
-    border-radius: 10px; }
-  .menu .arrow {
-    display: none;
-    width: 10px;
-    height: 10px;
-    transform: rotate(45deg);
-    background-color: white;
-    left: 48%;
-    top: -3px;
-    display: block;
-    position: absolute; }
+
+.dropDownMenu {
+  width: 600px;
+  height: auto;
+  display: none;
+  position: relative;
+  top: -30px; }
+
+.product {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  transform: translateX(250px);
+  border-radius: 10px; }
+
+.developer {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  transform: translateX(380px);
+  border-radius: 10px; }
+
+.company {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  transform: translateX(610px);
+  border-radius: 10px; }
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  transform: rotate(45deg);
+  display: none;
+  left: 48%;
+  top: -3px;
+  display: block;
+  position: absolute; }
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #5533ff; }
+
+ul {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0; }
+  ul li {
+    width: 100px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: sans-serif; }
+  ul li:first-child {
+    margin-left: 400px; }

@@ -1,0 +1,16 @@
+@mixin developer-color {
+    background-color: white;
+}
+@mixin product-color {
+    background-color: white;
+}
+
+@mixin menu-color {
+    background-color: $Menu-Background-Color;
+}
+@mixin company-color{
+    background-color: white;
+}
+@mixin arrow-color {
+    background-color: white;
+}

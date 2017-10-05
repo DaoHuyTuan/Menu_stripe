@@ -1,14 +1,31 @@
-//Menu Variables//
-$Menu-Height:100px;
-$Menu-Background-Color: #5533ff;
-//Li Variables//
-$Li-Width:100px;
-$Li-Font-Size: 20px;
-$Li-Margin-Left:30px;
-$Li-Margin-Top:($Menu-Height - $Li-Font-Size)/2;
+//------------------Menu Variables-------------------//
+//                                                   //
+    $Menu-Height:100px;                              
+    $Menu-Background-Color: #5533ff;               
+//                                                   //
+// --------------------------------------------------//
 
-//li:first-child//
-$Li-first-Margin-Left:400px;
+//------------------LI VARIABLES---------------------//
+//                                                   //
+    $Li-Width:100px;                                 
+    $Li-Font-Size: 20px;                             
+    $Li-Margin-Left:30px;                            
+    $Li-Margin-Top:($Menu-Height - $Li-Font-Size)/2; 
+//                                                   
+// --------------------------------------------------//
+
+//------------------li:first-child-------------------//
+//                                                   //
+    $Li-first-Margin-Left:400px;                     
+//                                                   //
+// --------------------------------------------------//
+ 
+//-------------------------------------------//
+//           
+    
+
+/*___________________________________________*/ 
+
 //Ul Variables //
 
 

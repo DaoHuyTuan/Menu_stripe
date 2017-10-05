@@ -1,0 +1,39 @@
+@import 'mixin/color.scss';
+@import 'mixin/position.scss';
+@import 'mixin/size.scss';
+@import 'mixin/transform.scss';
+
+@mixin dropDownMenu {
+    @include dropDownMenu-size;
+    @include dropDownMenu-position;
+    
+}
+@mixin Product {
+    @include product-size();
+    @include product-color();
+    @include product-transform();
+}
+@mixin menu {
+    @include menu-size();
+    @include menu-color();
+}
+@mixin developer {
+    @include developer-size;
+    @include developer-color;
+    @include developer-transform;
+}
+
+@mixin company {
+    @include company-size;
+    @include company-color;
+    @include company-transform;
+}
+@mixin arrow {
+    @include arrow-size;
+    @include arrow-color;
+    @include arrow-transform;
+    @include arrow-position;
+}
+
+
+

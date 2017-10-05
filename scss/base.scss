@@ -1,0 +1,21 @@
+ul{
+    margin: 0;
+    width: 100%;
+    height:100%;
+    padding: 0;
+    li {
+        width: $Li-Width;
+        height: $Li-Font-Size;
+        margin-left: $Li-Margin-Left;
+        margin-top: $Li-Margin-Top;
+        font-size: $Li-Font-Size;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    li:first-child{
+        margin-left: $Li-first-Margin-Left;
+    }
+    
+}

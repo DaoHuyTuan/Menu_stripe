@@ -1,0 +1,28 @@
+@mixin developer-size {
+    width:$Developer-Width;
+    height:100px;
+}
+
+@mixin dropDownMenu-size{
+    width: 600px;
+    height:auto;
+}
+
+@mixin product-size {
+    width:$Product-Width;
+    height:300px;
+}
+
+@mixin menu-size {
+    width: 100%;
+    height:$Menu-Height;
+    margin: 0;
+}
+@mixin company-size {
+    width:200px;
+    height:100px;
+}
+@mixin arrow-size {
+    width:10px;
+    height: 10px;
+}

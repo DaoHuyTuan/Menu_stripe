@@ -1,0 +1,15 @@
+@mixin developer-transform {
+    transform: translateX($Developer-translateX);
+    border-radius: 10px;
+}
+@mixin product-transform {
+    transform: translateX($Product-translateX);
+    border-radius: 10px;
+}
+@mixin company-transform {
+    transform: translateX($Company-translateX);
+    border-radius: 10px;  
+}
+@mixin arrow-transform {
+    transform: rotate(45deg);
+}
